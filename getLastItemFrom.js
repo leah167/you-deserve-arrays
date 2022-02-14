@@ -3,6 +3,7 @@ const prompt = require('prompt-sync')();
 // must make array JSON.parse so it's not seen as a string
 let userArray = JSON.parse(prompt("Enter an array: "));
 
+// did not work with this variable
 // let userArrayLength = userArray.lenght;
 
 let lastItem = userArray[userArray.length-1]
