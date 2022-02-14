@@ -9,5 +9,5 @@ let userArray = JSON.parse(prompt("Enter an array: "));
 let lastItem = userArray[userArray.length-1]
 
 console.log("The last item in the array is: " + lastItem);
-// console.log("The length of this array is: " + userArrayLength);
+// console.log("The length of this array is: " + userArray.length);
 // console.log("This is type: " + typeof userArray);
